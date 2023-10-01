@@ -15,8 +15,7 @@ const Campo = (props) => {
     return (
         <div className={`campo campo-${type}`}>
             <label>{props.titulo}</label>
-            <input 
-                type="text" 
+            <input
                 placeholder={placeholderModificado} 
                 required={props.required} 
                 value={props.valor} 
